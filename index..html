@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        //1-3 დავალება
+        let firstname = "beqa";
+        console.log (firstname)
+        let lastname = "yulashvili";
+        console.log (lastname)
+        const fullname = firstname + " " + lastname;
+        console.log (fullname)
+        // 4
+        const dateofbirth = 1995;
+        console.log (`მე დავიბადე ${dateofbirth} წელს.`)
+        // 5
+        let currentYear = 2025;
+        let calculateAge = currentYear - dateofbirth
+        console.log(calculateAge)
+        // 6
+        let checkNumber = 0;
+        if (checkNumber > 0 ) {
+            console.log ("Positive");
+        } else if (checkNumber < 0) {
+            console.log ("Negative")
+        } else  {
+            console.log ("Zero")
+        }
+        // 7
+        let weather = prompt ("რა ამინდია ახლა?(მზიანი, წვიმიანი, თოვლიანი, ნისლიანი)")
+        if (weather === "მზიანი") {
+            console.log ("ცხელა! მზის სათვალე არ დაგავიწყდეს! 😎")
+        } else if (weather === "წვიმიანი") {
+            console.log ("ჭექა-ქუხილია! ქოლგა წაიღე! ☔")
+        } else if (weather === "თოვლიანი") {
+            console.log ("ყინავს. თბილად ჩაიცვი! ❄️")
+        } else if (weather === "ნისლიანი") {
+            console.log ("ფრთხილად იყავი, გზაზე ცუდი ხილვადობაა! 🌫️")
+        } else {
+            console.log ("ასეთი ამინდი არ არსებობს.")
+        }
+   </script>
+  </body>
+</html>
